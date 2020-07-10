@@ -75,7 +75,7 @@ $stmt->execute(array($login, $password, $imgpath));
 
 
 
-$img=$pdo->query("UPDATE `utilisateurs` SET `password`,`title` = 1 WHERE `id` = 4");
+
 
 
 echo '<img src = $_POST["img-path"];?>';
